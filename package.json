@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "start": "node dist/server.js"
+    "start": "node dist/src/server.js"
   },
   "author": "Your Name",
   "license": "MIT",
