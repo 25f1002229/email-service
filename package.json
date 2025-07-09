@@ -4,7 +4,7 @@
   "description": "A resilient email sending service with retries, fallback, idempotency, rate limiting, and more.",
   "main": "dist/EmailService.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "tsc",
     "test": "jest",
     "start": "node dist/server.js"
   },
