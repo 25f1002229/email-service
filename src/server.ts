@@ -6,6 +6,10 @@ import { ProviderB } from './providers/ProviderB';
 const app = express();
 const port = process.env.PORT || 3000;
 
+const axios = require('axios');
+const url = 'https://email-service-vishaljituri.onrender.com/';
+setInterval(() => axios.get(url), 14 * 60 * 1000);
+
 app.use(express.json());
 
 const service = new EmailService([new ProviderA(), new ProviderB()]);
